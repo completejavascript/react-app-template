@@ -1,0 +1,15 @@
+@import "../../scss/variables.scss";
+
+.navigation-container {
+  ul {
+    li {
+      a {
+        color: $primaryColor;
+        text-decoration: none;
+        &:hover {
+          color: darken($color: $primaryColor, $amount: 10);
+        }
+      }
+    }
+  }
+}

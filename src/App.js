@@ -1,26 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+import { useRoutes } from 'hookrouter';
+import routes from './router';
+import NoPageFound from './pages/NoPageFound/NoPageFound';
 import './App.scss';
 
-function App() {
+const App = () => {
   console.log('This console will be remove in Production mode');
+  const routeResult = useRoutes(routes);
 
   return (
-    <div className="App">
-      <header className="header">
-        <img src={logo} className="logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      {routeResult || <NoPageFound />}
     </div>
   );
 }
