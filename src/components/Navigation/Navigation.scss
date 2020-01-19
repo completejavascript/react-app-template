@@ -1,6 +1,9 @@
-@import "../../scss/variables.scss";
+@import '../../scss/variables.scss';
 
 .navigation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   ul {
     li {
       a {
