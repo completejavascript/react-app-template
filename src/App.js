@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.scss';
 
 function App() {
-  console.log("This console will be remove in Production mode");
+  console.log('This console will be remove in Production mode');
 
   return (
     <div className="App">
