@@ -20,7 +20,7 @@ switch (projectEnv) {
     break;
   default:
     domain = 'localhost'; // local
-    baseAPI = 'http://jsonplaceholder.typicode.com/';
+    baseAPI = 'https://jsonplaceholder.typicode.com/';
     break;
 }
 
