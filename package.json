@@ -1,7 +1,8 @@
 {
   "name": "react-app-template",
+  "description": "Template for react app using create-react-app and some customizations.",
   "version": "0.1.0",
-  "private": true,
+  "author": "Lam Pham <completejavascript.super@gmail.com>",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -21,6 +22,20 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
   },
+  "keywords": [
+    "react",
+    "react-js",
+    "customize-cra",
+    "react app template",
+    "sass",
+    "hookrouter",
+    "react intl",
+    "react redux",
+    "js-cookie",
+    "axios"
+  ],
+  "license": "MIT",
+  "main": "n/a",
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
